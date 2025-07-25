@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Coffee Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">☕ Coffee</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#order">Order</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h2>Best Coffee</h2>
+      <h1>Make your day great with our special coffee!</h1>
+      <p>Welcome to our coffee paradise where every bean tells a story and every cup sparks joy.</p>
+      <div class="buttons">
+        <a href="#order" class="btn">Order Now</a>
+        <a href="#contact" class="btn secondary">Contact Us</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="WhatsApp Image 2025-07-25 at 2.09.54 AM.jpeg" alt="Coffee cup" />
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="section">
+    <h2 class="section-title">Menu</h2>
+    <div class="products">
+      <div class="product">
+        <img src="WhatsApp Image 2025-07-25 at 2.09.53 AM.jpeg" alt="Espresso">
+        <h3>Espresso</h3>
+        <p>Strong & bold</p>
+      </div>
+      <div class="product">
+        <img src="WhatsApp Image 2025-07-25 at 2.09.52 AM.jpeg" alt="Cappuccino">
+        <h3>Cappuccino</h3>
+        <p>Creamy & smooth</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Section -->
+  <section id="order" class="section">
+    <h2 class="section-title">Order</h2>
+    <form>
+      <label>Name:</label>
+      <input type="text" required />
+      <label>Email:</label>
+      <input type="email" required />
+      <label>Select Product:</label>
+      <select required>
+        <option value="">--Choose--</option>
+        <option value="espresso">Espresso</option>
+        <option value="cappuccino">Cappuccino</option>
+      </select>
+      <label>Quantity:</label>
+      <input type="number" min="1" required />
+      <button type="submit">Place Order</button>
+    </form>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+    <p>Feel free to reach out at <strong><a href="mailto:tamana_1234@gmail.com">tamana_1234@gmail.com</a></strong></p>
+    <form>
+      <label>Name:</label>
+      <input type="text" required />
+      <label>Email:</label>
+      <input type="email" required />
+      <label>Message:</label>
+      <textarea rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
+</html>
